@@ -50,7 +50,7 @@ for(i in 1:length(files)){
    d <- rbind(d,j)
    }
 
-colnames(d) <- c(get(files[1])[3,],colnames(d[,21:39]))
+colnames(d) <- c(get(files[1])[3,],colnames(d[,tail(colnames(d),n=19)]))
 
 setwd("../")
-write.csv(d,file="data.csv", row.names=F)
+write.csv(d,file="TestData.csv", row.names=F)
