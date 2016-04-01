@@ -21,7 +21,7 @@ for(i in 1:length(files)) assign(files[i], read.csv(files[i],header=F,stringsAsF
 colNum <- length(get(files[1]))
 
 d <- data.frame(matrix(nrow=0,ncol=colNum))
-colnames(d) <- get(files[1])[4,]
+colnames(d) <- get(files[1])[3,]
 
 for(i in 1:length(files)){
    j <- get(files[i])
@@ -49,11 +49,11 @@ for(i in 1:length(files)){
    j$ip <- j[2,21]            # get IP address
    j$code <- j[2,22]          # get completion code
 
-   j <- j[-c(1:4),]
+   j <- j[-c(1:3),]
    d <- rbind(d,j)
    }
 
-colnames(d) <- c(get(files[1])[4,],colnames(d[,tail(colnames(d),n=21)]))
+colnames(d) <- c(get(files[1])[3,],colnames(d[,tail(colnames(d),n=21)]))
 
 setwd("../")
 write.csv(d,file="TestData.csv", row.names=F)
