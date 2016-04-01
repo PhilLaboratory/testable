@@ -13,7 +13,7 @@
 rm(list=ls()) 
 
 ## set the working directory to the folder where the testable data has been downloaded
-setwd("C:/Users/Jphil/Documents/currentProjects/Knowledge and Belief/testable/frenchPilot") 
+setwd("C:/Users/Jphil/Desktop/results_files")
 
 files <- list.files()
 for(i in 1:length(files)) assign(files[i], read.csv(files[i],header=F,stringsAsFactors=F))
