@@ -1,0 +1,184 @@
+---
+title: "Testable Script"
+author: "Jonathan Phillips"
+date: "2/18/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Contact info
+
+If you have questions or problems, email me (`jonathan.s.phillips@dartmouth.edu`) or create a fork with the proposed changes to the github repo: https://github.com/phillipsjs/testable
+
+## Summary
+
+Testable stores data files for each individual participant separately and lets you download the entrire data set as a zipped folder. This script takes those individual participant-level files and merges them to create two new combined files:
+
+(1) a single .csv file with only the participants' demographic information
+(2) a single .csv file that combines all trial-level data from each participant along with their demographic information
+
+## Downloading the data
+
+First download and unzip the folder of results files from testable.
+
+Next, you'll put this .Rmd file in the same folder that contains the folder with the now unzipped data files. 
+
+## Importing the data
+
+First, you need to set the working directory in this chunk to the *unzipped* folder containing your results files. We'll also clear out the environment in R just in case there are any existing objects that may cause conflicts.
+
+Then, in this chuck, we are creating a list of the names of all of the files you just downloaded then importing them each as a separate data frame. Depending on the number of files you have an the size of each file, this can take a second.
+
+```{r importData, message=FALSE}
+## set the directory to the folder of your  data
+setwd("exampleData")
+
+## clear out the environment
+rm(list=ls()) 
+
+files <- list.files()
+for(i in 1:length(files)) assign(files[i], read.csv(files[i],header=F,stringsAsFactors=F,na.strings=c("", "NA")))
+
+```
+
+## Creating a separate demographics file
+
+Testable writes each participant's demographic information in the top two rows of that participants' results file. Here's an example, where the top two rows are the participant's demographic info and the trial-level is stored below.
+
+```{r exampleData}
+
+get(files[1])[1:2,c(1:9,12:15)] ## this only shows a selection of the columns for the first rows
+
+```
+
+Sometimes it's helpful to have a separate demographics data frame containing only the demographic information for the participants. The next chunk of code creates such a demographic data frame.
+
+```{r demographics}
+
+## start by building the data frame with the right column names
+
+r <- get(files[1]) # take the first file as an example
+descriptN <- as.character(r[1,][!is.na(r[1,])]) # get names for demographics
+demos <- data.frame(r[2,]) # get first participant's demographic data
+colnames(demos) <- descriptN # rename columns to demographic variable names
+
+for(i in 2:length(files)){
+  r <- get(files[i]) # retrieve each other file separately
+  descript <- data.frame(r[2,]) # get that participant's demographic data
+  colnames(descript) <- descriptN # rename columns to demographic variable names
+  demos <- rbind(demos,descript) # add each participant to the growing data frame
+}
+
+demos <- demos[,!is.na(names(demos))] ## remove any columns with no data
+```
+
+Here's what the first part of this demographics file will look like:
+
+```{r demoPrint}
+print(demos[1:5,1:5]) ## only showing the first several columns and rows
+```
+
+We will save the demographics data to a .csv file that can be easily imported into a separate analysis script. 
+
+Note that this will be saved in the same folder as this .Rmd file!
+
+```{r writeDemos}
+write.csv(demos,file="demographicData.csv", row.names=F) #write data file ## You'll likely want to rename this
+```
+
+## Rewriting demographic information to the trial-level data
+
+This next bit of the script rewrites the demographic information to every row containing that participants' data. I find this is easier especially if you end up modeling participant-level data in analyzing participants' responses.
+
+``` {r rewriteDemos}
+
+for(i in 1:length(files)){
+  r <- get(files[i]) # retrieve each file separately
+  descriptN <- as.character(r[1,][!is.na(r[1,])]) # get the names of the participant decriptors for this file
+  descript <- data.frame(r[2,]) # get the values for each of the descriptors
+  colnames(descript) <- descriptN # write the descriptor names as column names
+  variablesN <- as.character(r[4,]) # get the names of the data fields for this file
+  w <- length(c(variablesN,descriptN)) # get the total number of columns needed (width of the data)
+  l <- length(r[-c(1:4),1]) # get the number of trials completed (length of the data)
+  d <- data.frame(matrix(ncol=w,nrow=l)) # build a new dataframe with these widths and lengths
+  colnames(d) <- c(variablesN,descriptN) # set the column names to so that data fields come first and then the descriptors
+  d[,variablesN] <- r[-c(1:4),] # write the trial-level data to the dataframe
+  d[,descriptN] <- descript[1,descriptN] # write the descriptor-level data to each trial
+  d <- d[,unique(colnames(d))] # remove any redundant columns,e.g., subjectGroup gets written to both trial-level and participant-level datafields
+  assign(files[i],d) # rewrite the file with the descriptor info appended to each trial
+}
+```
+
+Here's an example of the rewritten data frame:
+
+```{r exampleData2}
+
+print(get(files[1])[1:5,c(1:8,24:29)]) ## Note that I'm only showing some of the data here to give a picture
+
+```
+
+## Combining the data
+
+This next part takes those files and combines them into a single long-format data frame. Doing this is made slightly complicated by the fact that some results files may have different columns than other results files and some participants may have completed more trials than other particpiants. The solution implemented here is to have a single data frame that contains all possible columns, and each participant's data is written only to the subset of that data frame that data were recorded for.
+
+```{r }
+allNames <- c() # create vector to store all names used
+allLengths <- c() # create vector to store all lengths observed
+
+for(i in 1:length(files)){ # do this for each file separately
+  n <- colnames(get(files[i])) # get the column names for that file
+  allNames <- unique(c(n,allNames)) # append any unique column names to the vector of names
+  l <- length(get(files[i])[,1]) # get the length (number of trials) for that file
+  allLengths <- c(allLengths,l) # append the length of that file to the vector of lengths
+}
+
+totalRows <- sum(allLengths) # calculate the total number of trials across all data
+
+# create vector of rows where each participants' data ends
+stops <- allLengths 
+for(n in 1:length(allLengths)){ 
+  stops[n] <- sum(allLengths[0:n])
+}
+
+# create vector of rows where each participants' data starts
+starts <- allLengths
+for(n in 1:length(allLengths)){ 
+  starts[n] <- sum(allLengths[0:(n-1)])+1
+}
+
+# build the dataframe to contain all of the data from individual files
+d <- data.frame(matrix(ncol=length(allNames),nrow=totalRows))
+colnames(d) <- allNames
+
+# write each individual participants' data to the relevant subset of that dataframe
+for(i in 1:length(files)){
+  r <- get(files[i])
+  names <- colnames(r)
+  start <- starts[i]
+  stop <- stops[i]
+  
+  d[c(start:stop),names] <- r  
+}
+
+## this is a warning that your participants answered uneven numbers of trials
+if(length(unique(allLengths))>1){
+  print("Warning: You have subjects with uneven numbers of responses!")}
+
+```
+
+## Saving the combined data
+
+Lastly, we will save the combined data to a .csv file that can be easily imported into a separate analysis script. 
+
+Note that this will be saved in the same folder as this .Rmd file!
+
+```{r writeData}
+
+write.csv(d,file="combinedData.csv", row.names=F) #write data file ## You'll likely want to rename this
+
+```
+
+

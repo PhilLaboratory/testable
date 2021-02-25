@@ -1,0 +1,132 @@
+subjectGroup,browser,version,screenWidth,screenHeight,OS,OS_lang,GMT_timestamp,local_timestamp,link,id,age,sex,education,handedness,completionCode,,,,,,,
+5,Chrome,88.0.4324.150,1366,768,Windows,en-US,2021-02-17_22:52:26,2021-02-17_17:52:26,https://www.testable.org/experiment/31/222638/start?hitId=3BAWBGQGZO5RIRUI9XHNMUOUMEGV7G&workerId=AMV1E7FFPVAW4&assignmentId=3U088ZLJVOZT1PSX4A6CH1T9ETB0W9&a=J80U2&tp_a=J80U2&b=3U088ZLJVOZT1PSX4A6CH1T9ETB0W9&tp_b=3U088ZLJVOZT1PSX4A6CH1T9ETB0W9&c=276272&tp_c=276272,participant4,40,female,College or Technical school,right-handed,5oMg8Xhmb2v14TWU,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+rowNo,condition1,condition2,condition3,trialNo,target,key,ITI,presTime,stimFormat,random,randomBlock,keyboard,subjectGroup,responseWindow,ITI_ms,ITI_f,ITI_fDuration,presTime_fDuration,timestamp,response,RT,correct
+784,impossible,scenario5,fast,534,<b>On your way you ought to </b><br> <br>  take a walk on the planet Neptune.,j,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,106347,timeout,1542,0
+778,ordinary,scenario5,fast,528,<b>On your way you ought to </b><br> <br>  brainstorm suggestions for the group.,f,600,1500,word,1,1 1,f j,5,1550,604,36,16.75,NaN,108509,timeout,1545,0
+793,immoral,scenario5,fast,543,<b>On your way you ought to </b><br> <br>  park in the middle of the highway.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,110608,j,1486,0
+789,flouting,scenario5,fast,539,<b>On your way you ought to </b><br> <br>  watch a movie at a theater.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,112764,timeout,1548,0
+779,ordinary,scenario5,fast,529,<b>On your way you ought to </b><br> <br>  turn on the radio to listen to music.,f,600,1500,word,1,1 1,f j,5,1550,604,36,16.76,NaN,114745,f,1369,1
+788,flouting,scenario5,fast,538,<b>On your way you ought to </b><br> <br>  climb into bed and take a nap.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,116489,j,1139,0
+787,flouting,scenario5,fast,537,<b>On your way you ought to </b><br> <br>  go on a long scenic walk,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.76,NaN,118645,timeout,1549,0
+786,flouting,scenario5,fast,536,<b>On your way you ought to </b><br> <br>  board an international flight.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.76,NaN,120683,j,1425,0
+782,impossible,scenario5,fast,532,<b>On your way you ought to</b><br> <br>  see the future; the event is a success.,j,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,122833,timeout,1552,0
+790,immoral,scenario5,fast,540,<b>On your way you ought to </b><br> <br>  hit a pedestrian with your car.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.76,NaN,124715,j,1270,0
+785,impossible,scenario5,fast,535,<b>On your way you ought to </b><br> <br>  jump over the Great Wall of China.,j,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,126871,timeout,1546,0
+791,immoral,scenario5,fast,541,<b>On your way you ought to </b><br> <br>  steer your car into a small dog.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.76,NaN,128735,j,1252,0
+780,ordinary,scenario5,fast,530,<b>On your way you ought to </b><br> <br>  mentally recite your agenda items.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,130604,f,1261,1
+792,immoral,scenario5,fast,542,<b>On your way you ought to </b><br> <br>  decide to rob a bank instead.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,132174,j,971,0
+783,impossible,scenario5,fast,533,<b>On your way you ought to </b><br> <br>  read the minds of people close by.,j,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,133842,j,1065,1
+781,ordinary,scenario5,fast,531,<b>On your way you ought to </b><br> <br>  stop your car at the traffic light.,f,600,1500,word,1,1 1,f j,5,1550,603,36,16.75,NaN,135361,f,910,1
+806,flouting,scenario6,fast,554,<b>During your class you ought to </b><br> <br>  play a board game with your friend.,f,600,1500,word,1,1 2,f j,5,1550,604,36,16.75,NaN,256910,timeout,1547,0
+797,ordinary,scenario6,fast,545,<b>During your class you ought to </b><br> <br>  retrieve an eraser from your bag.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.75,NaN,257845,f,322,1
+803,impossible,scenario6,fast,551,<b>During your class you ought to </b><br> <br>  hold your breath for an hour.,j,600,1500,word,1,1 2,f j,5,1550,603,36,16.76,NaN,259460,j,1015,1
+804,flouting,scenario6,fast,552,<b>During your class you ought to </b><br> <br>  give your toenails a trim.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.75,NaN,261053,j,983,0
+796,ordinary,scenario6,fast,544,<b>During your class you ought to </b><br> <br>  take notes on the lecture slide.,f,600,1500,word,1,1 2,f j,5,1550,604,36,16.76,NaN,262513,f,851,1
+800,impossible,scenario6,fast,548,<b>During your class you ought to </b><br> <br>  push over a large towering tree,j,600,1500,word,1,1 2,f j,5,1550,603,36,16.77,NaN,264598,j,1480,1
+805,flouting,scenario6,fast,553,<b>During your class you ought to </b><br> <br>  scream out your favorite song.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.75,NaN,266124,j,928,0
+799,ordinary,scenario6,fast,547,<b>During your class you ought to </b><br> <br>  turn to the next page in your notes.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.74,NaN,267480,f,760,1
+809,immoral,scenario6,fast,557,<b>During your class you ought to </b><br> <br>  set fire to the professor's hair.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.77,NaN,269016,j,938,0
+811,immoral,scenario6,fast,559,<b>During your class you ought to </b><br> <br>  throw a brick at your professor.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.76,NaN,270279,j,661,0
+801,impossible,scenario6,fast,549,<b>During your class you ought to </b><br> <br>  use your mind to charge your phone.,j,600,1500,word,1,1 2,f j,5,1550,603,36,16.76,NaN,271642,f,760,0
+798,ordinary,scenario6,fast,546,<b>During your class you ought to </b><br> <br>  raise your hand to ask a question.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.76,NaN,273136,f,885,1
+808,immoral,scenario6,fast,556,<b>During your class you ought to </b><br> <br>  skin a cat for personal enjoyment.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.75,NaN,274600,j,860,0
+802,impossible,scenario6,fast,550,<b>During your class you ought to </b><br> <br>  build a small hut on a mountain.,j,600,1500,word,1,1 2,f j,5,1550,603,36,16.75,NaN,276239,j,1042,1
+810,immoral,scenario6,fast,558,<b>During your class you ought to </b><br> <br>  hold your entire class hostage.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.75,NaN,277829,j,990,0
+807,flouting,scenario6,fast,555,<b>During your class you ought to </b><br> <br>  sit facing the back of the classroom.,f,600,1500,word,1,1 2,f j,5,1550,603,36,16.75,NaN,279408,f,977,1
+841,flouting,scenario7,fast,585,<b>In the office you ought to </b><br> <br>  jump on the conference table.,f,600,1500,word,1,1 4,f j,5,1550,604,36,16.76,NaN,297458,j,1536,0
+835,ordinary,scenario7,fast,579,<b>In the office you ought to </b><br> <br>  be so cold you put on a sweater,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,299554,j,1488,0
+832,ordinary,scenario7,fast,576,<b>In the office you ought to </b><br> <br>  put the final touches on your project.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.76,NaN,301151,f,991,1
+847,immoral,scenario7,fast,591,<b>In the office you ought to </b><br> <br>  intentionally short-circuit all computers.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.76,NaN,302801,j,1049,0
+838,impossible,scenario7,fast,582,<b>In the office you ought to </b><br> <br>  walk across the office ceiling.,j,600,1500,word,1,1 4,f j,5,1550,603,36,16.77,NaN,304713,j,1303,1
+836,impossible,scenario7,fast,580,<b>In the office you ought to </b><br> <br> start an alpaca farm under a desk.,j,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,306134,j,814,1
+839,impossible,scenario7,fast,583,<b>In the office you ought to </b><br> <br>  hold a storm cloud in your hands.,j,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,307467,j,740,1
+845,immoral,scenario7,fast,589,<b>In the office you ought to </b><br> <br>  eat all the lunches in the fridge.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.76,NaN,308971,j,901,0
+842,flouting,scenario7,fast,586,<b>In the office you ought to </b><br> <br>  eat a pizza on the office floor.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.76,NaN,310182,j,606,0
+833,ordinary,scenario7,fast,577,<b>In the office you ought to </b><br> <br>  take notes on an important report.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,311696,f,915,1
+843,flouting,scenario7,fast,587,<b>In the office you ought to </b><br> <br>  turn on loud music and dance.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,313856,timeout,1545,0
+840,flouting,scenario7,fast,584,<b>In the office you ought to </b><br> <br>  work sitting at your boss's desk.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,315284,f,816,1
+844,immoral,scenario7,fast,588,<b>In the office you ought to </b><br> <br>  build a bonfire in the break room.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,317303,j,1412,0
+834,ordinary,scenario7,fast,578,<b>In the office you ought to </b><br> <br>  fill your water bottle up with water.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.75,NaN,319452,timeout,1549,0
+846,immoral,scenario7,fast,590,<b>In the office you ought to </b><br> <br>  lie to your boss about your dad dying.,f,600,1500,word,1,1 4,f j,5,1550,603,36,16.76,NaN,321596,timeout,1549,0
+837,impossible,scenario7,fast,581,<b>In the office you ought to </b><br> <br>  land a jet on the conference table.,j,600,1500,word,1,1 4,f j,5,1550,603,36,16.76,NaN,323475,j,1267,1
+820,impossible,scenario8,fast,566,<b>In the elevator you ought to </b><br> <br> climb up Mount Everest.,j,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,345670,j,895,1
+818,impossible,scenario8,fast,564,<b>In the elevator you ought to </b><br> <br> give birth to a baby elephant.,j,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,347131,j,866,1
+821,impossible,scenario8,fast,567,<b>In the elevator you ought to </b><br> <br> take a picture of the planet Mars.,j,600,1500,word,1,1 3,f j,5,1550,603,36,16.76,NaN,348433,j,693,1
+829,immoral,scenario8,fast,575,<b>In the elevator you ought to </b><br> <br> trip an old man as he exits.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,350229,j,1198,0
+827,immoral,scenario8,fast,573,<b>In the elevator you ought to </b><br> <br> shatter the overhead light.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.76,NaN,351826,j,986,0
+815,ordinary,scenario8,fast,561,<b>In the elevator you ought to </b><br> <br> push one of the floor buttons.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,353732,f,1301,1
+823,flouting,scenario8,fast,569,<b>In the elevator you ought to </b><br> <br> serenade the other passengers.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,355730,j,1389,0
+822,flouting,scenario8,fast,568,<b>In the elevator you ought to </b><br> <br> hold the hand of a stranger.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.76,NaN,357436,j,1102,0
+814,ordinary,scenario8,fast,560,<b>In the elevator you ought to </b><br> <br> check the time on your phone.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,358937,f,894,1
+825,flouting,scenario8,fast,571,<b>In the elevator you ought to </b><br> <br> press your nose to the back wall.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.76,NaN,360485,j,951,0
+819,impossible,scenario8,fast,565,<b>In the elevator you ought to </b><br> <br> run part of a half marathon.,j,600,1500,word,1,1 3,f j,5,1550,603,36,16.76,NaN,362045,j,953,1
+828,immoral,scenario8,fast,574,<b>In the elevator you ought to </b><br> <br> hold the other passengers hostage.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,363692,j,1041,0
+817,ordinary,scenario8,fast,563,<b>In the elevator you ought to </b><br> <br> cross and uncross your arms.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.76,NaN,365231,f,937,1
+816,ordinary,scenario8,fast,562,<b>In the elevator you ought to </b><br> <br> comment on the weather today.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.76,NaN,366737,f,903,1
+826,immoral,scenario8,fast,572,<b>In the elevator you ought to </b><br> <br> empty out someone's purse.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,368139,j,797,0
+824,flouting,scenario8,fast,570,<b>In the elevator you ought to </b><br> <br> press all of the floor buttons.,f,600,1500,word,1,1 3,f j,5,1550,603,36,16.75,NaN,369915,f,1166,1
+901,flouting,scenario2,slow,619,<b>In the restaurant you ought to </b><br> <br>  sit down at a random family's table.,f,600,,word,1,2 2,f j,5,,603,36,16.76,,468111,j,2215,0
+891,ordinary,scenario2,slow,609,<b>In the restaurant you ought to </b><br> <br>  make a salad at the salad bar.,f,600,,word,1,2 2,f j,5,,603,36,16.75,,470233,j,1523,0
+894,impossible,scenario2,slow,612,<b>In the restaurant you ought to </b><br> <br>  eat one-hundred veggie pizzas.,j,600,,word,1,2 2,f j,5,,603,35,17.22,,472776,f,1938,0
+898,flouting,scenario2,slow,616,<b>In the restaurant you ought to </b><br> <br>  sit on the floor to eat your food.,f,600,,word,1,2 2,f j,5,,603,36,16.75,,474374,j,1006,0
+904,immoral,scenario2,slow,622,<b>In the restaurant you ought to </b><br> <br>  set fire to the pizza station.,f,600,,word,1,2 2,f j,5,,603,36,16.76,,475771,j,795,0
+897,impossible,scenario2,slow,615,<b>In the restaurant you ought to </b><br> <br>  climb inside of a bowl of cereal.,j,600,,word,1,2 2,f j,5,,603,36,16.75,,477367,j,1000,1
+899,flouting,scenario2,slow,617,<b>In the restaurant you ought to </b><br> <br>  walk around the room barefoot.,f,600,,word,1,2 2,f j,5,,603,36,16.75,,479124,j,1159,0
+903,immoral,scenario2,slow,621,<b>In the restaurant you ought to </b><br> <br>  steal plates for your kitchen.,f,600,,word,1,2 2,f j,5,,604,36,16.75,,480668,j,944,0
+890,ordinary,scenario2,slow,608,<b>In the restaurant you ought to </b><br> <br> wait in line for your food.,f,600,,word,1,2 2,f j,5,,603,36,16.75,,481983,f,724,1
+895,impossible,scenario2,slow,613,<b>In the restaurant you ought to </b><br> <br>  read the minds of fellow diners.,j,600,,word,1,2 2,f j,5,,603,36,16.75,,484135,j,1546,1
+892,ordinary,scenario2,slow,610,<b>In the restaurant you ought to </b><br> <br>  take a bite of your meal.,f,600,,word,1,2 2,f j,5,,603,36,16.75,,485534,f,801,1
+893,ordinary,scenario2,slow,611,<b>In the restaurant you ought to </b><br> <br>  thank a dining hall employee.,f,600,,word,1,2 2,f j,5,,603,36,16.75,,487785,f,1645,1
+896,impossible,scenario2,slow,614,<b>In the restaurant you ought to </b><br> <br>  grow another head on your back.,j,600,,word,1,2 2,f j,5,,603,36,16.76,,489243,j,857,1
+902,immoral,scenario2,slow,620,<b>In the restaurant you ought to </b><br> <br>  stab someone with a fork.,f,600,,word,1,2 2,f j,5,,603,36,16.75,,490635,j,793,0
+900,flouting,scenario2,slow,618,<b>In the restaurant you ought to </b><br> <br>  take an entire serving platter of food.,f,600,,word,1,2 2,f j,5,,603,36,16.74,,492552,f,1318,1
+905,immoral,scenario2,slow,623,<b>In the restaurant you ought to </b><br> <br>  kill a dining hall employee.,f,600,,word,1,2 2,f j,5,,603,36,16.76,,494273,j,1113,0
+882,flouting,scenario1,slow,602,<b>In the museum you ought to </b><br> <br> secretly adjust a painting.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,503946,f,2290,1
+886,immoral,scenario1,slow,606,<b>In the museum you ought to </b><br> <br> break the arm of a security guard.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,505354,j,802,0
+874,ordinary,scenario1,slow,594,<b>In the museum you ought to </b><br> <br> discuss an exhibit with a friend.,f,600,,word,1,2 1,f j,5,,603,36,16.76,,506888,f,928,1
+887,immoral,scenario1,slow,607,<b>In the museum you ought to </b><br> <br> throw an exhibit out the window.,f,600,,word,1,2 1,f j,5,,603,36,16.76,,508259,j,780,0
+876,impossible,scenario1,slow,596,<b>In the museum you ought to </b><br> <br> have a conversation with a painting.,j,600,,word,1,2 1,f j,5,,603,36,16.75,,510357,f,1503,0
+878,impossible,scenario1,slow,598,<b>In the museum you ought to </b><br> <br> transform into a very large seal.,j,600,,word,1,2 1,f j,5,,604,36,16.75,,512249,j,1280,1
+881,flouting,scenario1,slow,601,<b>In the museum you ought to </b><br> <br> crabwalk through the main exhibit.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,514346,j,1500,0
+872,ordinary,scenario1,slow,592,<b>In the museum you ought to</b><br> <br> admire your favorite painting.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,515736,f,779,1
+883,flouting,scenario1,slow,603,<b>In the museum you ought to </b><br> <br> stand on a bench for a better view.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,517448,j,1116,0
+879,impossible,scenario1,slow,599,<b>In the museum you ought to </b><br> <br> teleport back to your apartment.,j,600,,word,1,2 1,f j,5,,603,36,16.76,,519530,j,1475,1
+885,immoral,scenario1,slow,605,<b>In the museum you ought to </b><br> <br> steal your favorite sculpture.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,521541,j,1407,0
+877,impossible,scenario1,slow,597,<b>In the museum you ought to </b><br> <br> levitate above the other patrons.,j,600,,word,1,2 1,f j,5,,603,36,16.75,,523590,j,1447,1
+873,ordinary,scenario1,slow,593,<b>In the museum you ought to </b><br> <br> read the placard by an exhibit.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,525577,f,1385,1
+880,flouting,scenario1,slow,600,<b>In the museum you ought to </b><br> <br> ignore the guard and bring your bag.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,527104,j,923,0
+875,ordinary,scenario1,slow,595,<b>In the museum you ought to </b><br> <br> rest on a bench for a moment.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,528582,f,876,1
+884,immoral,scenario1,slow,604,<b>In the museum you ought to </b><br> <br> rip a painting into small pieces.,f,600,,word,1,2 1,f j,5,,603,36,16.75,,529991,j,811,0
+940,immoral,scenario4,slow,654,<b>On your flight you ought to </b><br> <br>  hold the plane's pilot as hostage.,f,600,,word,1,2 4,f j,5,,603,36,16.75,,553408,j,1693,0
+941,immoral,scenario4,slow,655,<b>On your flight you ought to </b><br> <br>  poison the drink of your seatmate.,f,600,,word,1,2 4,f j,5,,603,36,16.75,,555471,j,1463,0
+926,ordinary,scenario4,slow,640,<b>On your flight you ought to </b><br> <br>  do a magazine crossword puzzle.,f,600,,word,1,2 4,f j,5,,603,36,16.76,,557205,f,1135,1
+929,ordinary,scenario4,slow,643,<b>On your flight you ought to </b><br> <br>  watch a movie you have downloaded.,f,600,,word,1,2 4,f j,5,,603,36,16.76,,558901,f,1089,1
+933,impossible,scenario4,slow,647,<b>On your flight you ought to </b><br> <br>  take a dance exercise class.,j,600,,word,1,2 4,f j,5,,603,36,16.76,,560329,j,825,1
+937,flouting,scenario4,slow,651,<b>On your flight you ought to </b><br> <br>  demand twenty-five bags of peanuts.,f,600,,word,1,2 4,f j,5,,603,36,16.75,,561818,j,890,0
+935,flouting,scenario4,slow,649,<b>On your flight you ought to </b><br> <br>  put your bag in the middle of the aisle.,f,600,,word,1,2 4,f j,5,,603,36,16.75,,563978,f,1559,1
+934,flouting,scenario4,slow,648,<b>On your flight you ought to </b><br> <br>  stand on top of your seat and shout.,f,600,,word,1,2 4,f j,5,,603,36,16.76,,566272,j,1692,0
+939,immoral,scenario4,slow,653,<b>On your flight you ought to </b><br> <br>  shatter one of the plane's windows.,f,600,,word,1,2 4,f j,5,,603,36,16.75,,567953,j,1076,0
+927,ordinary,scenario4,slow,641,<b>On your flight you ought to </b><br> <br>  ask the attendant for some peanuts.,f,600,,word,1,2 4,f j,5,,603,36,16.76,,569810,f,1259,1
+928,ordinary,scenario4,slow,642,<b>On your flight you ought to </b><br> <br>  start the next chapter of your book.,f,600,,word,1,2 4,f j,5,,603,36,16.75,,571364,f,958,1
+931,impossible,scenario4,slow,645,<b>On your flight you ought to </b><br> <br>  stop the engine with your thoughts.,j,600,,word,1,2 4,f j,5,,603,36,16.75,,572716,j,748,1
+930,impossible,scenario4,slow,644,<b>On your flight you ought to </b><br> <br>  force the plane to go backwards.,j,600,,word,1,2 4,f j,5,,603,36,16.75,,574370,j,1044,1
+938,immoral,scenario4,slow,652,<b>On your flight you ought to </b><br> <br>  steal extra snacks from the cart.,f,600,,word,1,2 4,f j,5,,603,36,16.75,,576341,j,1370,0
+936,flouting,scenario4,slow,650,<b>On your flight you ought to </b><br> <br>  ask people to give up their first-class seats.,f,600,,word,1,2 4,f j,5,,603,36,16.76,,578170,j,1226,0
+932,impossible,scenario4,slow,646,<b>On your flight you ought to </b><br> <br>  turn the attendant into a mouse.,j,600,,word,1,2 4,f j,5,,603,36,16.77,,579705,j,935,1
+909,ordinary,scenario3,slow,625,<b>In the library you ought to </b><br> <br>  read one book's inside cover.,f,600,,word,1,2 3,f j,5,,603,36,16.76,,629327,f,1066,1
+921,immoral,scenario3,slow,637,<b>In the library you ought to </b><br> <br>  hide a dead body in the bathroom.,f,600,,word,1,2 3,f j,5,,603,36,16.75,,630601,j,666,0
+913,impossible,scenario3,slow,629,<b>In the library you ought to </b><br> <br>  make all the books disappear.,j,600,,word,1,2 3,f j,5,,603,36,16.76,,632044,j,835,1
+918,flouting,scenario3,slow,634,<b>In the library you ought to </b><br> <br>  set up an elaborate cooking spread.,f,600,,word,1,2 3,f j,5,,603,36,16.75,,633522,j,874,0
+914,impossible,scenario3,slow,630,<b>In the library you ought to </b><br> <br>  melt your least favorite book.,j,600,,word,1,2 3,f j,5,,603,36,16.75,,634856,j,732,1
+917,flouting,scenario3,slow,633,<b>In the library you ought to </b><br> <br>  place cookbooks in the kid's section.,f,600,,word,1,2 3,f j,5,,603,36,16.75,,636835,j,1372,0
+922,immoral,scenario3,slow,638,<b>In the library you ought to </b><br> <br>  push someone down the stairs.,f,600,,word,1,2 3,f j,5,,603,36,16.75,,638368,j,928,0
+908,ordinary,scenario3,slow,624,<b>In the library you ought to </b><br> <br> ask the librarian for advice.,f,600,,word,1,2 3,f j,5,,602,36,16.75,,639674,f,716,1
+911,ordinary,scenario3,slow,627,<b>In the library you ought to </b><br> <br>  drink from the water fountain.,f,600,,word,1,2 3,f j,5,,603,36,16.75,,641323,f,1051,1
+915,impossible,scenario3,slow,631,<b>In the library you ought to </b><br> <br>  exit having aged seventeen years,j,600,,word,1,2 3,f j,5,,603,36,16.75,,643083,j,1151,1
+920,immoral,scenario3,slow,636,<b>In the library you ought to </b><br> <br>  leave a book to soak in a toilet.,f,600,,word,1,2 3,f j,5,,604,36,16.76,,644619,j,930,0
+919,flouting,scenario3,slow,635,<b>In the library you ought to </b><br> <br>  play music on a portable speaker.,f,600,,word,1,2 3,f j,5,,603,36,16.75,,645936,j,706,0
+910,ordinary,scenario3,slow,626,<b>In the library you ought to </b><br> <br>  check out three different books.,f,600,,word,1,2 3,f j,5,,603,36,16.76,,647354,f,816,1
+912,impossible,scenario3,slow,628,<b>In the library you ought to </b><br> <br>  read every book in the building.,j,600,,word,1,2 3,f j,5,,603,36,16.76,,649130,f,1168,0
+916,flouting,scenario3,slow,632,<b>In the library you ought to </b><br> <br>  scream at the top of your lungs.,f,600,,word,1,2 3,f j,5,,604,36,16.75,,650382,j,643,0
+923,immoral,scenario3,slow,639,<b>In the library you ought to </b><br> <br>  take a book without checking it out.,f,600,,word,1,2 3,f j,5,,603,36,16.75,,652154,j,1177,0
